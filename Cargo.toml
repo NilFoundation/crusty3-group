@@ -15,7 +15,7 @@ repository = "https://github.com/filecoin-project/group"
 edition = "2018"
 
 [dependencies]
-fff = { git = "https://github.com/nilfoundation/ff.git", branch = "1-montgomery-multiplication", package = "fff" }
+fff = { git = "https://github.com/nilfoundation/crusty3-ff.git", branch = "1-montgomery-multiplication", package = "fff" }
 rand = "0.7"
 rand_xorshift = "0.2"
 thiserror = "1.0.10"
