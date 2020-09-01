@@ -15,7 +15,7 @@ repository = "https://github.com/filecoin-project/group"
 edition = "2018"
 
 [dependencies]
-ff = { git = "https://github.com/nilfoundation/crusty3-ff.git", rev = "6c3e204", package = "fff" }
+fff = { git = "https://github.com/nilfoundation/crusty3-ff.git", rev = "6c3e204", package = "fff", features = ["derive"] }
 rand = "0.7"
 rand_xorshift = "0.2"
 thiserror = "1.0.10"
@@ -24,4 +24,4 @@ thiserror = "1.0.10"
 maintenance = { status = "actively-developed" }
 
 [features]
-derive = ["ff/fff_derive"]
+derive = ["fff/fff_derive"]
